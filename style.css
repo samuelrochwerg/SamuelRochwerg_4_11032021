@@ -1086,6 +1086,15 @@ h4 {
     }
 }
 
+@media (max-width: 400px) {
+    .label {
+        max-width: 300px;
+    }
+    .form-control {
+        max-width: 300px;
+    }
+}
+
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
