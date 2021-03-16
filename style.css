@@ -388,7 +388,7 @@ a:hover {
     .site-navigation {
         position: absolute;
         top: 50%;
-        right: 20px;
+        right: 50px;
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
     }
@@ -868,6 +868,14 @@ h4 {
     background-image: url("img/image-de-presentation.bmp");
 }
 
+@media (max-width: 872px) {
+    .row {
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+}
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
@@ -952,7 +960,7 @@ h4 {
         background-attachment: scroll;
     }
     .navbar .nav {
-        padding-top: 0;
+        padding-top: 12px;
         float: none!important;
     }
     .navbar.row {
