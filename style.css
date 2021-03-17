@@ -647,10 +647,10 @@ h5,
 h6,
 p,
 label,
-.btn,
-a {
+.btn {
     font-family: "helvetica";
     font-weight: 400;
+    font-display: swap;
     color: #575757!important;
 }
 
@@ -736,7 +736,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: black!important;
 }
 
 .portfolio-thumb {
@@ -775,12 +775,21 @@ h4 {
 }
 
 .tc-white {
+    color: black!important;
+    font-weight: bold;
+}
+
+.tc-orange {
     color: #F3976C!important;
+}
+
+.tc-black {
+    color: #FFF!important;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: black!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -1039,4 +1048,11 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+a {
+    color: black;
+    font-family: "helvetica";
+    font-display: swap;
+    font-weight: 400;
 }

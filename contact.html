@@ -88,27 +88,27 @@
 			<div class="col-sm-6">
 				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 					<div class="form-group">
-						<label>
+						<label for="name">
 							Nom
 						</label>
-						<input id="name" class="form-control" required />
+						<input type="text" id="name" placeholder="Entrez votre nom et prénom" class="form-control" required />
 					</div>
 					<div class="form-group">
-						<label>
+						<label for="email">
 							Adresse email
 						</label>
-						<input id="email" class="form-control" type="email" required />
+						<input type="email" id="email" placeholder="Entrez une adresse email valide" class="form-control" type="email" required />
 					</div>
 					<div class="form-group">
-						<label>
-							Comment nous avez-vous connu ?
+						<label for="info">
+							Comment avez-vous connu La Chouette Agence ?
 						</label>
-						<input class="form-control" type="email" required id="input_504" />
+						<input class="form-control" type="text" placeholder="Racontez-nous" required id="info" />
 					</div>
 					<div class="form-group">
-						<label>
-							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+						<label for="message">
+							Parlez nous de votre projet. Ajoutez autant de détails que nécessaire.<br>
+						</label><textarea id="message" class="form-control" rows="4" cols="50" placeholder="Entrez votre message" required></textarea>
 					</div> 
 					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 						Envoyer
@@ -141,22 +141,22 @@
 				<div class="row row-no-gutters social">
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="https://twitter.com" target="_blank"><span class="fa fa-twitter icon-md"></span></a>
+							<a class="social" href="https://twitter.com" aria-label="Lien Twitter" target="_blank"><span class="fa fa-twitter icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="https://facebook.com" target="_blank"><span class="fa fa-facebook icon-md"></span></a>
+							<a class="social" href="https://facebook.com" aria-label="Lien Facebook" target="_blank"><span class="fa fa-facebook icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="https://linkedin.com" target="_blank"><span class="fa fa-dribbble icon-md"></span></a>
+							<a class="social" href="https://linkedin.com" aria-label="Lien Linkedin" target="_blank"><span class="fa fa-dribbble icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="https://instagram.com" target="_blank"><span class="fa fa-instagram icon-md"></span></a>
+							<a class="social" href="https://instagram.com" aria-label="Lien Instagram" target="_blank"><span class="fa fa-instagram icon-md"></span></a>
 						</div>
 					</div>
 				</div>
