@@ -5,7 +5,13 @@ BrowserMatch ^Mozilla/4\.0[678] no-gzip
 BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
 BrowserMatch \bMSI[E] !no-gzip !gzip-only-text/html
 
-/*Mise en cache*/
+# Le serveur doit suivre les liens symboliques:
+Options +Followsymlinks
+
+# Activation du module de réécriture d'url
+Rewriteengine on 
+
+#Mise en cache
 
 # BEGIN Cache-Control Headers
 <IfModule mod_headers.c>
