@@ -9,19 +9,19 @@
     <link rel="shortcut icon" type="image/png" href="favicon.jpg">
     
 	
-	<link async rel="stylesheet" type="text/css" href="style.min.css">
-	<link async rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
-	<link async rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
-	<link async rel="stylesheet" type="text/css" href="./css/et-line.min.css">
+	<link rel="stylesheet" type="text/css" href="style.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
 	
     
-	<script rel="preload" src="./js/jquery-2.1.0.min.js"> as="script"</script>
+	<script src="./js/jquery-2.1.0.min.js"></script>
 	<script async src="./js/bootstrap.min.js"></script>
-	<script rel="preload" async src="./js/blocs.min.js">as="script"</script>
+	<script async src="./js/blocs.min.js"></script>
 	<script async src="./js/jquery.touchSwipe.min.js" defer></script>
-	<script rel="preload" async src="./js/gmaps.min.js">as="script"</script>
-	<script rel="preload" src="./js/jqBootstrapValidation.min.js">as="script"</script>
-	<script rel="preload" async src="./js/formHandler.min.js">as="script"</script>
+	<script async src="./js/gmaps.min.js"></script>
+	<script src="./js/jqBootstrapValidation.min.js"></script>
+	<script async src="./js/formHandler.min.js"></script>
     <title>Contact</title>
 
     
@@ -84,7 +84,7 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-6">
-				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+				<form id="form_1">
 					<div class="form-group">
 						<label for="name">
 							Nom
@@ -95,7 +95,7 @@
 						<label for="email">
 							Adresse email
 						</label>
-						<input type="email" id="email" placeholder="Entrez une adresse email valide" class="form-control" type="email" required />
+						<input id="email" placeholder="Entrez une adresse email valide" class="form-control" type="email" required />
 					</div>
 					<div class="form-group">
 						<label for="info">
