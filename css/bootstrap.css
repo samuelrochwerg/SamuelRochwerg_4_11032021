@@ -1406,8 +1406,8 @@ textarea {
 }
 
 a {
-    color: #337ab7;
-    text-decoration: none
+    color: black;
+    text-decoration: none;
 }
 
 a:focus,
@@ -2006,12 +2006,13 @@ pre code {
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
-    margin-left: auto
+    margin-left: auto;
 }
 
 .row {
     margin-right: -15px;
-    margin-left: -15px
+    margin-left: -15px;
+    margin: auto auto auto auto;
 }
 
 .col-lg-1,
